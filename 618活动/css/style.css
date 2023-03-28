@@ -1,0 +1,72 @@
+body {
+  background-color: #140b9e;
+}
+
+header {
+  background-image: url(../images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -2;
+}
+header img {
+  margin-top: 20px;
+  height: 280px;
+}
+
+.center {
+  height: 300px;
+  position: relative;
+  bottom: 30px;
+}
+
+.center > img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  z-index: 2;
+}
+
+.banner img {
+  width: 105px;
+  height: 90px;
+  z-index: 2;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.stage {
+  display: block;
+  width: 103%;
+  position: relative;
+  left: -20px;
+  top: -330px;
+  z-index: 1;
+}
+
+.bottom img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.bottom {
+  position: relative;
+  top: -300px;
+}
+.top img {
+  width: 20%;
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
+.down img {
+  position: absolute;
+  top: 332px;
+  left: 259px;
+}
