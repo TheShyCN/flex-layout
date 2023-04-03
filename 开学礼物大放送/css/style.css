@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-image: url(../images/banner-bg.png);
+  width: 1920px;
+  height: 753px;
+}
+
+.head-content {
+  width: 640px;
+  height: 440.1px;
+  margin: 0 auto;
+}
+.head-content img {
+  margin-top: 52px;
+}
+.main {
+  width: 1920px;
+  height: 745px;
+  background-color: #2873f9;
+}
+
+.card {
+  width: 1072px;
+  height: 698px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 75px;
+  background-image: url(../images/part1-bg.png);
+  z-index: 2;
+}
+.main {
+  display: flex;
+}
+.left {
+  position: relative;
+  top: 500px;
+  left: 250px;
+}
+.right {
+  position: relative;
+  top: 500px;
+  right: 250px;
+}
+.title p {
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #ec6853;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+}
+.title {
+  width: 380px;
+  height: 28px;
+  margin: 0 auto;
+  margin-top: 102px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-content {
+  width: 1072px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+}
+.card-content div {
+  width: 200px;
+  height: 180px;
+}
+.btn {
+  position: relative;
+  bottom: 30px;
+}
+.card-content div p:nth-child(2) {
+  margin-top: 15px;
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card-content div p:nth-child(3) {
+  margin-top: 15px;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #666666;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 400;
+}
+.hand {
+  width: 38px;
+  height: 45px;
+  position: absolute;
+  top: 80px;
+  left: 280px;
+}
+
+.label {
+  position: absolute;
+  bottom: 165px;
+  left: 175px;
+}
